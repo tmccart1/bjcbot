@@ -1,0 +1,27 @@
+﻿{
+  "name": "DemoBCJ",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        // BEGIN LUIS
+        {
+            "type": "luis",
+            "name": "BCJTest",
+            "appId": "3a73b80c-302d-4a23-9fd7-ecd2815279e7",
+            "version": "0.1",
+            "authoringKey": "d385969c645b4335814ce4cf788918ea",
+            "subscriptionKey": "d385969c645b4335814ce4cf788918ea",
+            "region": "westus",
+            "id": "158"
+        }
+        //END LUIS
+    ],
+  "padlock": "",
+  "version": "2.0"
+}

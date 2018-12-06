@@ -3,3 +3,9 @@
 ################################################################################
 
 *.suo
+/.vs/DemoBCJ/DesignTimeBuild
+/.vs/DemoBCJ/v15/Server/sqlite3
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/DemoBCJ/bin/Debug/netcoreapp2.1
+/DemoBCJ/obj
